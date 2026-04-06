@@ -3,3 +3,8 @@ resource "aws_vpc" "name" {
     name ="divya"
   }
 }
+resource "aws_vpc" "name" {
+  tags = {
+    name ="divya"
+  }
+}
